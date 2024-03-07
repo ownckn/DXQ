@@ -48,8 +48,8 @@ TL.TextWrapped = true
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/f2vR5dJd"))()
 
 OrionLib:MakeNotification({
-  Name = "欢迎你使用河流工具箱脚本启动成功",
-  Content = "河流辅助工具箱-启动成功--祝你使用愉快",
+  Name = "欢迎你使用老大工具箱脚本启动成功",
+  Content = "老大辅助工具箱-启动成功--祝你使用愉快",
   Image = "rbxassetid://15361603644",
   Time = 20
 })
@@ -57,17 +57,17 @@ wait(3)
 local Window = OrionLib:MakeWindow({Name = "河流工作室(河流工具箱脚本)(进化版)", HidePremium = false, SaveConfig = false, IntroText = "正在启动(河流工具箱脚本)(进化版)", ConfigFolder = "河流工具箱脚本"})
 
 local vucnb = Window:MakeTab({
-    Name = "河流工具箱公告",
+    Name = "老大工具箱公告",
     Icon = "rbxassetid://15361603644",
     PremiumOnly = false
 })
 
 vucnb:AddParagraph("工具箱还在设计-请耐心等待","")
-vucnb:AddParagraph("工具箱里面的这些功能是纳西妲帮我弄的","")
+vucnb:AddParagraph("工具箱里面的这些功能是原神帮我弄的","")
 vucnb:AddParagraph("暂时工具箱也是在慢慢的更新以后会增加更多的功能","")
 
 local fuch = Window:MakeTab({
-    Name = "河流工具箱其他",
+    Name = "老大工具箱其他",
     Icon = "rbxassetid://15361603644",
     PremiumOnly = false
 })
@@ -136,7 +136,7 @@ fuch:AddButton({
 })
 
 local fuch = Window:MakeTab({
-    Name = "河流工具箱信息",
+    Name = "老大工具箱信息",
     Icon = "rbxassetid://15361603644",
     PremiumOnly = false
 })
@@ -206,10 +206,10 @@ About:AddTextbox({
 
 About:AddParagraph("作者的留言","欢 迎 你 使 用 河 流 roblox 你 对 他 的 支 持 就 是 我 们 的 动 力")
  
-About:AddParagraph("河流QQ官方群","587185906")
+About:AddParagraph("老大QQ官方群","493057142")
  
 About:AddButton({
-  Name = "河流QQ官方群(点击复制)",
+  Name = "老大QQ官方群(点击复制)",
   Callback = function()
       OrionLib:MakeNotification({
 	        Name = "通知复制成功",
